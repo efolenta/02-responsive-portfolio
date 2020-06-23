@@ -21,10 +21,27 @@ body {
 }
 .container {
     max-width: 960px;
+    min-height: 1000px;
 }
 .row {
     background-color: white;
     margin: 25px 10px 25px 10px;
+}
+.col-sm-6 {
+    margin-top: 10px;
+}
+.card {
+    margin: 10px 0;
+}
+
+/* About Me */
+#profile {
+    float: left;
+    margin: 15px;
+    max-width: 350px;
+}
+#social {
+    margin-bottom: 20px;
 }
 
 /* Form Styles */
@@ -38,9 +55,16 @@ form {
 footer {
     height: 125px;
     background-color: #3a3a3a;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 footer p {
     color: white;
     text-align: center;
     padding: 25px;
+}
+/* Overrides */
+.clear {
+    clear: both;
 }

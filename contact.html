@@ -39,15 +39,33 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1>About Me!</h1>
-                <hr>
-                <p>Hi, my name is Eric and I am currently a student taking a Full-Stack Developers Bootcamp course through UC Irvine. I currently work for a Korean based company that specializes in creating websites for anyone from restuarants to major clothing retailers. My position is a Junior Front-End Developer and I primarily work with HTML and CSS. I also have experience in Magento 1 & 2 as well as Wordpress and Concrete5.</p>
-                <p>In my free time I enjoying spending time with my wife Emily and we enjoy hiking and exploring around. We have a cat named Teagan and she is a hoot!</p>
+                <!-- Contact Form Start-->
+                <form>
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="inputEmail1" placeholder="Enter your E-Mail address" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMessage">Message</label>
+                        <textarea id="inputMessage" class="form-control" rows="4" cols="50" placeholder="Type in a message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                  <!-- Contact Form End -->
             </div>
         </div>
     </div>
+
+    <!-- Footer Area -->
     <footer>
-        
+      <div class="col-12">
+        <p>All rights reserved. &copy; 2020</p>
+      </div>
     </footer>
 
     <!-- Optional JavaScript -->

@@ -1,12 +1,9 @@
 /* Header Style Overrides */
 nav {
-    background-color: beige;
+    background-color: #3a3a3a;
 }
 .navbar {
     height: 75px;
-}
-.navbar .navbar-brand {
-    background-color: #70b8f7;
 }
 .navbar a {
     display: inline-block;
@@ -28,4 +25,22 @@ body {
 .row {
     background-color: white;
     margin: 25px 10px 25px 10px;
+}
+
+/* Form Styles */
+
+form {
+    padding: 10px;
+}
+
+/* Footer Styles */
+
+footer {
+    height: 125px;
+    background-color: #3a3a3a;
+}
+footer p {
+    color: white;
+    text-align: center;
+    padding: 25px;
 }
